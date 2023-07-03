@@ -12,9 +12,10 @@ This time, the input will be an array of barcodes (string). For example:
   'ITEM000000',
   'ITEM000000',
   'ITEM000000',
-  'ITEM000000',
   'ITEM000001',
   'ITEM000001',
+  'ITEM000004'
+  'ITEM000004'
   'ITEM000004'
 ]
 ```
@@ -22,7 +23,7 @@ This time, the input will be an array of barcodes (string). For example:
 Then the output should be 
 
 ```
-***<store earning no money>Receipt ***
+***<store earning no money>Receipt***
 Name: Coca-Cola, Quantity: 4, Unit price: 3 (yuan), Subtotal: 12 (yuan)
 Name: Sprite, Quantity: 2, Unit price: 3 (yuan), Subtotal: 6 (yuan)
 Name: Battery, Quantity: 3, Unit price: 2 (yuan), Subtotal: 6 (yuan)
@@ -31,7 +32,7 @@ Total: 24 (yuan)
 **********************
 ```
 
-The database is as follows, for example:
+The database is as follows:
 
 ```
 [
@@ -44,16 +45,6 @@ The database is as follows, for example:
       barcode: 'ITEM000001',
       name: 'Sprite',
       price: 3
-    },
-    {
-      barcode: 'ITEM000002',
-      name: 'Apple',
-      price: 5
-    },
-    {
-      barcode: 'ITEM000003',
-      name: 'Litchi',
-      price: 15
     },
     {
       barcode: 'ITEM000004',

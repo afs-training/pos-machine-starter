@@ -14,8 +14,8 @@ This time, the input will be an array of barcodes (string). For example:
   'ITEM000000',
   'ITEM000001',
   'ITEM000001',
-  'ITEM000004'
-  'ITEM000004'
+  'ITEM000004',
+  'ITEM000004',
   'ITEM000004'
 ]
 ```
